@@ -1,0 +1,434 @@
+@media screen and (min-width: 375px) {
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    position: relative;
+}
+#title{
+    font-family: 'Raleway', Courier, monospace;
+    font-size: large;
+}
+.fylo__productivity__title{
+    font-family: 'Raleway', Courier, monospace;
+    font-size: large;
+}
+#text{
+    font-family: 'Open Sans', Courier, monospace;
+}
+.fylo__card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: hsl(217, 28%, 15%);
+    
+}
+.fylo__intro{
+    display: flex;
+   align-items: center;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.fylo__menu {
+    text-align: right;
+    color: hsl(0, 0%, 100%);
+    align-self: center;
+    
+}
+.features:hover{
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.team:hover{
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.sign:hover{
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+span{
+    margin: 10px;
+}
+.fylo__start{
+    display: flex;
+    flex-direction: column;
+    color: hsl(0, 0%, 100%);
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.fylo__start__text{
+    width: 90%;
+}
+.image__intro{
+    max-width: 500px;
+}
+img{
+    width: 80%;
+}
+.fylo__start__button{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(198, 60%, 50%);
+    border-color: hsl(198, 60%, 50%);
+    border-radius: 50px;
+    color: white;
+    margin-top: 50px;
+}
+.fylo__accessibility{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.fylo__accessibility__text{
+    width: 90%;
+    text-align: center;
+}
+.fylo__security{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.fylo__security__text{
+    width: 90%;
+    text-align: center;
+}
+.fylo__collaboration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.fylo__collaboration__text{
+    width: 90%;
+    text-align: center;
+}
+.fylo__storage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.fylo__storage__text{
+    width: 90%;
+    text-align: center;
+}
+.fylo__productivity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 100px;
+}
+.fylo__productivity__text{
+    width: 90%;
+    text-align: justify;
+}
+.productivity__image{
+    margin-left: 50px;
+}
+.arrow{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+}
+
+.link{
+text-underline-offset: 5px;
+padding-bottom: 0.1rem;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+border-bottom: 0.5px solid hsl(176, 68%, 64%);
+width: 10rem;
+font-size: small;
+color: hsl(176, 68%, 64%);
+}
+#profile{
+    width: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+#adress{
+    display: flex;
+    margin-top: 20px;
+}
+#comments{
+    color: white;
+    background-color:hsl(219, 30%, 18%) ;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+}
+.fylo__name{
+    font-size: small;
+    font-weight: bold;
+}
+.fylo__founder{
+    font-size: x-small;
+    margin-top: -10px;
+}
+.fylo__comments{
+    margin-bottom: 300px;
+}
+.fylo__first__comment{
+    padding: 40px;
+}
+.fylo__second__comment{
+    padding: 40px;
+}
+.fylo__third__comment{
+    padding: 40px;
+}
+#name{
+    margin-top: 15px;
+}
+.fylo__subscription{
+    display: flex;
+    background: hsl(217, 28%, 15%);
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    background-color: hsl(218, 28%, 13%);
+    border: 20px solid hsl(218, 28%, 13%);
+    box-shadow: 1px 1px 1px 1px rgb(25, 25, 25);
+    border-radius: 10px;
+    width: 80%;
+    align-self: center;
+    margin-top: -9rem;
+    position: absolute;
+}
+
+.fylo__subscription__button{
+    width: 300px;
+    height: 50px;
+    background-color: hsl(198, 60%, 50%)
+    
+    ;
+    border-color: hsl(198, 60%, 50%);
+    border-radius: 50px;
+    color: white;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+input{
+    width: 290px;
+    height: 45px;
+    border-radius: 50px;
+    margin: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.fylo__footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.fylo__information{
+    padding-top: 300px;
+    color: white;
+    background-color: hsl(216, 53%, 9%);
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+}
+.fylo__number__text{
+    margin-top: 6px;
+}
+.fylo__latin__text{
+    text-align: justify;
+    width: 70%;
+}
+#info{
+    margin: 20px;
+    display: flex;
+}
+svg{
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.fylo__information__additional{
+    margin-top: 50px;
+    font-size: larger;
+    margin-left: 20px;
+}
+footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.ionicon{
+    width: 30px;
+}
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        background-color: none;
+    }
+    section.access-card{
+        width: 100%;
+        /* background: hsl(218, 28%, 13%); */
+       background-color: hsl(217, 28%, 15%);
+        height: 60vh;
+    }
+    .access-card .content{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 600px;
+        background: hsl(218, 28%, 13%);
+        height: 100%;
+        margin-bottom: -50rem;
+        z-index: 5;
+    }
+    .fylo{
+        object-fit: fill;
+    }
+    .fylo__card{
+      max-width: none;
+    }
+    
+    .fylo__start{
+        max-width: 600px;
+        align-self: center;
+    }
+    .access__security{
+        display: flex;
+    }
+    .fylo__accessibility{
+        max-width: 450px;
+        margin-right: 100px;
+        margin-left: 200px;
+        
+    }
+    .fylo__security{
+        max-width: 480px;
+        margin-right: 100px;
+        
+    }
+    .storage__collaboration{
+        display: flex;
+    }
+    .fylo__collaboration{
+        max-width: 460px;
+        margin-right: 100px;
+        margin-left: 200px;
+        
+    }
+    .fylo__storage{
+        max-width: 470px;
+        margin-right: 100px;
+        
+    }
+    .fylo__productivity{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        height: 500px;
+    }
+    .fylo__productivity__image{
+        max-width: 700px;
+    }
+    #image{
+        object-fit: cover;
+    }
+    .fylo__productivity__text{
+        max-width: 570px;
+        text-align: left;
+        height: 50%;
+    }
+    .fylo__productivity__title{
+        font-size: xx-large;
+        max-width: 270px;
+    }
+    .fylo__comments{
+        display: flex;
+        flex-direction: row;
+        max-width: 1000px;
+        align-self: center;
+    }
+    #name{
+        margin-top: 15px;
+    }
+    .fylo__footer{
+       max-width: none;
+    }
+    .fylo__subscription{
+        display: flex;
+        width: 70%;
+        align-self: center;
+        border-radius: 5px;
+        height: 200px;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: -9rem;
+    }
+    .subscription__buttons{
+        display: flex;
+    }
+    .fylo__subscription__button{
+        width: 200px;
+        height: 40px;
+    }
+    input{
+        width: 390px;
+        height: 35px;
+    }
+    .fylo__subscription__text{
+        height: 100px;
+        width: 700px;
+        margin-top: 40px;
+    }
+    .fylo__not__logo{
+        display: flex;
+        
+    }
+    .fylo__information__latin{
+        width: 500px;
+        padding-top: 20px;
+    }
+    .fylo__latin__text{
+        text-align: left;
+    }
+    .number__email{
+        margin-top: 15px;
+        margin-right: 70px;
+        margin-left: -50px;
+    }
+    .fylo__information__additional{
+        margin-right: 50px;
+        
+       margin-top: -1px;
+       margin-top: 40px;
+       width: 200px;
+    }
+    footer{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
